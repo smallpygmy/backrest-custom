@@ -13,7 +13,7 @@ jobs:
     steps:
       # Step 1: Checkout your repository
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       # Step 2: Get the latest upstream release tag
       - name: Get latest Backrest release
